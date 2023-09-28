@@ -1,0 +1,194 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+.container {
+    width: 1300px;
+    margin: 0px auto;
+}
+a {
+    text-decoration: none;
+    color:inherit;
+}
+li {
+    list-style: none;
+}
+header .header .container {
+    display: flex;
+    justify-content: space-between;
+}
+.header .logo {
+    Width: 72px;
+    Height: 30.6px;
+    Top: 56px;
+    Left: 122px;
+    color: #FFFFFF;
+    font-size: 25;
+    line-height: 30;
+    font-family: Gilroy-Bold;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left; 
+}
+.header {
+    background: url(./images/Back-Images-2.png);
+    background-repeat: no-repeat;
+    width: 1447.12px;
+    height: 322px;
+    padding-top: 15px;
+
+}
+.header nav {
+width: 252px;
+height: 43px;
+top: 45px;
+border-radius: 8px;
+border: 0.97px solid;
+background-color: rgba(255, 255, 255, 0.3); 
+color: #FFFFFF; 
+opacity: 1;
+
+
+margin-left: -650px;
+}
+.header nav ul {
+    
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header nav ul li a {
+    color: #FFFFFF;
+    font-weight: bold;
+    
+    
+}
+
+.header nav .dropdown {
+    color: #FFFFFF;
+    padding: 25px;
+    text-decoration: none;
+    display: block;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 8px;
+    border: 0.97px solid;
+    background-color: rgba(255, 255, 255, 0.3); 
+    opacity: 1;
+}
+.header nav .dropdown li {
+
+    padding: 5px;
+}
+
+
+.header .btns .btn{
+    width: 99px;
+    height: 43px;
+    top: 45px;
+    left: 1219px;
+    border-radius: 8px;
+    border: 0.97px solid;
+    background-color: rgba(255, 255, 255, 0.3); 
+    color: #FFFFFF; 
+    opacity: 1;
+}
+body {
+    background-color: rgb(33, 30, 41);
+    
+}
+main .image {
+    Width: 343.98px;
+    Height: 196.89px;
+    Padding-top: 30px;
+    Border-radius: 9.27px, 9.27px, 0px, 0px;
+
+}
+main .movies .content-inner {
+    display: flex;
+    padding-top: 15px;
+    color: #FFFFFF;
+    
+}
+main .movies .content-inner{
+    position: relative;
+}
+main .movies .movie-title {
+    font-size: 15px;
+    padding-right: 150px;
+    padding-left: 10px;
+
+}
+main .movies .duration {
+    font-size: 10px;
+    font-weight: 100;
+}
+main .movies .icons {
+ position: absolute;
+ padding-top: 30px; 
+ padding-left: 100px;
+ color: #FFFFFF;
+ font-size: 25px;
+ 
+}
+.slider {
+    position: relative;
+    max-width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    transition: transform 0.5s ease;
+    z-index: -1;
+}
+main .container .buttons {
+   border: none;
+   margin-top: 80px;
+   color: rgb(33, 30, 41);
+   border-radius: 50%;
+   width: 90px;
+   height: 80px;
+}
+
+
+.buttons {
+    border: none;
+    margin-top: 100px;
+    color: rgb(33, 30, 41);
+    border-radius: 50%;
+    width: 90px;
+    height: 80px;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    margin: 10px;
+}
+
+.buttons i{
+    font-size: 50px;
+    color:rgb(33, 30, 41);
+}
+
+
+main .container {
+    display: flex;
+}
+
+main .container .slider .movies:hover {
+    scale: 0.5;
+    cursor: pointer;
+}
+main .container .slider .movies .icons i:hover i{
+    
+    cursor: pointer;
+}
+main .container .slider {
+    padding-bottom: 70px;
+}
+
